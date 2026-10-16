@@ -1,0 +1,24 @@
+.fruits {
+    background-color: rgb(97, 199, 83);
+    margin: 20px;
+    padding: 20px;
+    border: 2px solid rgb(10, 57, 88);
+    text-align: center;
+    color: rgb();
+}
+.cars {
+    background-color: rgb(211, 209, 75);
+    margin: 20px;
+    padding: 20px;
+    border: 2px solid rgb(10, 57, 88);
+    text-align: center;
+        color: #333;
+    }
+.Fruits {
+    background-color: rgb(197, 142, 165);
+    margin: 20px;
+    padding: 20px;
+    border: 2px solid rgb(10, 57, 88);
+    text-align: center;
+    color: rgb(10, 57, 88);
+}

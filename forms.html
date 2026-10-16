@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="/static/css/forms.css">
+    <title>Form</title>
+</head>
+<body>
+    <form action="" method="post">
+        <label for="name">First Name:</label>
+        <input type="text" id="name" name="name" required><br><br>
+        <label for="lname">Last Name:</label>
+        <input type="text" id="lname" name="lname" required><br><br>
+        <label for="email">Email Address:</label>
+        <input type="email" id="email" name="email" required><br><br>
+        <label for="dob">Date of Birth:</label>
+        <input type="date" id="dob" name="dob" required><br>
+        <label for="male">Male:</label>
+        <input type="radio" id="male" name="gender" value="male" required>
+        <label for="female">Female:</label>
+        <input type="radio" id="female" name="gender" value="female" required><br>
+        <label for="course">Course:</label>
+        <select id="course" name="course" required>
+            <option value="html">HTML</option>
+            <option value="css">CSS</option>
+            <option value="javascript">JavaScript</option>
+            <option value="python">Python</option>
+            <option value="java">Java</option>
+        </select><br><br>
+        <label for="upload">Upload File:</label>
+        <input type="file" id="upload" name="upload" required><br><br>
+        <input type="submit" value="Register">
+    </form>
+</body>
+</html>
